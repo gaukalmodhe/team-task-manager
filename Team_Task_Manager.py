@@ -316,9 +316,9 @@ def get_all_tasks():
 #===========================================
 #Dashboard
 #===========================================
-@app.route('/dashboard', methods=['GET'])
+@app.route('/Admin', methods=['GET'])
 @jwt_required()
-def dashboard():
+def Admin_dashboard():
 
     total = Task.query.count()
     done = Task.query.filter_by(status="done").count()
