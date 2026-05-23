@@ -1,1 +1,1 @@
-web.gunicorn Team_Task_Manager:app
+web: gunicorn Team_Task_Manager:app
