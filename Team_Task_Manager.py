@@ -263,7 +263,7 @@ def delete_task(id):
 
 @app.route('/dashboard', methods=['GET'])
 @jwt_required()
-def dashboard():
+def user_dashboard():
 
     total_tasks = Task.query.count()
 
@@ -316,9 +316,9 @@ def get_all_tasks():
 #===========================================
 #Dashboard
 #===========================================
-@app.route('/Admin', methods=['GET'])
+@app.route('/admin-dashborad', methods=['GET'])
 @jwt_required()
-def Admin_dashboard():
+def admin_dashboard():
 
     total = Task.query.count()
     done = Task.query.filter_by(status="done").count()
