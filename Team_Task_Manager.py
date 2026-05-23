@@ -295,7 +295,7 @@ if __name__ == '__main__':
 #Get Tasks
 @app.route('/tasks', methods=['GET'])
 @jwt_required()
-def get_all_tasks():
+def fetch_all_tasks():
 
     tasks = Task.query.all()
 
