@@ -293,7 +293,7 @@ if __name__ == '__main__':
     app.run(debug=True)
 #========================================
 #Get Tasks
-@app.route('/tasks', methods=['GET'])
+@app.route('/alltasks', methods=['GET'])
 @jwt_required()
 def get_all_tasks():
 
