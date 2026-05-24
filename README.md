@@ -80,6 +80,17 @@ Authorization: Bearer <your_token>
 
 ---
 
+
+🏁 Conclusion
+This project demonstrates:
+REST API development
+Authentication & Authorization
+Role-based access control
+Database management
+Cloud deployment using Render
+
+Thank you for reviewing this project 👍
+
 # 🧪 Sample Requests
 
 ## Signup
@@ -91,33 +102,4 @@ Authorization: Bearer <your_token>
   "role": "admin"
 }
 
-🚀 Run Locally
-# Clone repository
-git clone https://github.com/gaukalmodhe/team-task-manager.git
 
-# Go to project folder
-cd team-task-manager
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Run app
-python app.py
-
-🌐 Deployment
-Hosted on Render
-Auto deployment from GitHub
-Live URL: https://team-task-manager-3-56gb.onrender.com⁠�
-
-👨‍💻 Author
-Gaurav Modhe
-
-🏁 Conclusion
-This project demonstrates:
-REST API development
-Authentication & Authorization
-Role-based access control
-Database management
-Cloud deployment using Render
-
-Thank you for reviewing this project 👍
